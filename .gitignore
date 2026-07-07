@@ -1,38 +1,41 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# macos
+# OS
 .DS_Store
+Thumbs.db
 
-# py
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+install/
+log/
+*.o
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+
+# Node.js
+node_modules/
+dist/
+.env
+.env.local
+
+# ROS2
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# PlatformIO
+.pio/
+.vs/
